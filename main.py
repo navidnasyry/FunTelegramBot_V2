@@ -50,7 +50,7 @@ def echo(update:Update, context: CallbackContext) -> None:
 
 if __name__ == '__main__':
     print('start')
-    TOKEN = '1551813377:AAGi3j56YM2t2rOYUeXT0VAbIbKd4eVQFb4'
+    TOKEN = ''
     updater = Updater(TOKEN)
     print(type(updater))
 
